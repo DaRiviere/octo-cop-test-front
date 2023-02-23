@@ -1,6 +1,10 @@
 
 # Accessibilité & Tests
 
+Se focus uniquement sur les outils qui tournent en CI et ces manières de tester?
+
+Nombreuses extensions navigateurs ou applications SaaS qui analysent des pages via une URL
+
 ## Les tests spécifiques aux critères d'accessibilités 
 
 ### Les tests sans assertions spécifique 
@@ -61,3 +65,9 @@ https://docs.google.com/spreadsheets/d/1qeiWQIGx1HDuH-7vgbpCMnaOvgz5yirqeAmW4J8N
 
 https://drive.google.com/drive/folders/1BBdNGqTAqO4FR2J6kAhfkemuXCixSfBP
 
+### A tester / mettre en avant : 
+
+- axe avec implémentation sur un test Jest (via jest-axe?)
+
+TODO : Vérifier si contrast de couleurs peuvent être vérifier dans un JSDOM? ([à priori non?](https://www.npmjs.com/package/jest-axe?activeTab=explore) cf désactivation ) 
+Sinon souligner importance de le tester à un endroit donné ? 
